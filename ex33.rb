@@ -1,4 +1,4 @@
-def run_number_array_example(starting_number)
+def run_number_array_example(starting_number, increment_amount)
 
   i = 0
   numbers = []
@@ -7,7 +7,7 @@ def run_number_array_example(starting_number)
     puts "At the top i is #{i}"
     numbers.push(i)
     
-    i = i + 1
+    i = i + increment_amount
     puts "Numbers now: #{numbers}"
     puts "At the bottom i is #{i}"
   end
@@ -20,4 +20,4 @@ def run_number_array_example(starting_number)
   
 end
 
-run_number_array_example(6)
+run_number_array_example(22,3)
